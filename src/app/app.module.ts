@@ -1,10 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { MatInputModule} from '@angular/material/input';
-import { MatSliderModule } from '@angular/material/slider';
-import { MatFormFieldModule} from "@angular/material/form-field";
-import { MatSelectModule} from "@angular/material/select";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './components/card/card.component';
@@ -33,10 +29,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    MatSelectModule,
-    MatInputModule,
-    MatSliderModule,
-    MatFormFieldModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],
