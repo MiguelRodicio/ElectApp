@@ -13,6 +13,7 @@ import { InputComponent } from './shared/components/input/input.component';
 import { DailyCostComponent } from './components/daily-cost/daily-cost.component';
 import { TimeBandComponent } from './components/time-band/time-band.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DeviceDropdownComponent } from './components/device-dropdown/device-dropdown.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     InputComponent,
     DailyCostComponent,
     TimeBandComponent,
+    DeviceDropdownComponent,
   ],
   imports: [
     BrowserModule,
